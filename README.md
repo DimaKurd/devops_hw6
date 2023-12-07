@@ -13,5 +13,6 @@
 [x] [Liveness probes в k8s deployments](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command)
 
 # Использованные скрипты
-./install_docker.sh - файл установки докера в Ubuntu
-./install_minicube.sh - файл установки minicube в Ububntu
+`./install_docker.sh` - скрипт установки докера в Ubuntu
+
+`./install_minicube.sh` - скрипт установки minicube в Ububntu
