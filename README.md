@@ -4,9 +4,7 @@
 # Использованная документация
 - [Установка Docker на Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
-- [Установка minicube](https://minikube.sigs.k8s.io/docs/start/)
-
-- [Push в DockerHub] - 
+- [Установка minicube](https://minikube.sigs.k8s.io/docs/start/) 
 
 - [Создание Deployment с ReplicaSet в k8s](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment)
 
