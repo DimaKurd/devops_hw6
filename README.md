@@ -2,15 +2,15 @@
 > Домашнее задание 6. Deploy web-приложения в кластер Kubernetes
 
 # Использованная документация
-[x] [Установка Docker на Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+- [Установка Docker на Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
-[x] [Установка minicube](https://minikube.sigs.k8s.io/docs/start/)
+- [Установка minicube](https://minikube.sigs.k8s.io/docs/start/)
 
-[x] [Push в DockerHub] - 
+- [Push в DockerHub] - 
 
-[x] [Создание Deployment с ReplicaSet в k8s](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment)
+- [Создание Deployment с ReplicaSet в k8s](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment)
 
-[x] [Liveness probes в k8s deployments](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command)
+- [Liveness probes в k8s deployments](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command)
 
 # Использованные скрипты
 Запуск из соответствующих каталогов!
@@ -28,6 +28,7 @@
 Доступ к веб-приложению, развёрнутому в кластере:
 ![image](https://github.com/DimaKurd/devops_hw6/assets/43163420/714ee7f9-c00f-4631-846d-5f0702711d24)
 ![image](https://github.com/DimaKurd/devops_hw6/assets/43163420/b154841c-34d9-4ed3-b54a-777633f179a7)
+
 Шаги отражены в соответствующих скриптах раздела "Использованные скрипты"
 
 Файлы настроек и вывод комманд:
