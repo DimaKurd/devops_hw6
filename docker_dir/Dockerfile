@@ -2,11 +2,10 @@ FROM python:3.10-alpine
 
 WORKDIR /app
 
-ADD img /app/img
-
-RUN apk --no-cache add curl
-
+COPY img /app/img
 COPY index_page.html favicon.ico /app/
+
+RUN ip -h address > ip_a_output.txt && apk --no-cache add curl
 
 USER 1001
 
