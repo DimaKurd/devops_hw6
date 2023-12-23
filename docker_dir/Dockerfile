@@ -3,7 +3,7 @@ FROM python:3.10-alpine
 WORKDIR /app
 
 COPY img .
-COPY index_page.html favicon.ico .
+COPY index_page.html favicon.ico ./
 COPY check_host.sh .
 
 RUN chmod 744 ./check_host.sh && ./check_host.sh
