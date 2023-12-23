@@ -3,7 +3,7 @@ FROM python:3.10-alpine
 WORKDIR /app
 
 COPY img ./img
-COPY index_page.html favicon.ico ./
+COPY index.html favicon.ico ./
 
 RUN apk --no-cache add curl
 
