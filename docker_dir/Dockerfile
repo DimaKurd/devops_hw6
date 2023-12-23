@@ -2,13 +2,12 @@ FROM python:3.10-alpine
 
 WORKDIR /app
 
-COPY img /app/img
-COPY index_page.html favicon.ico /app/
+COPY img .
+COPY index_page.html favicon.ico .
+COPY check_host.sh .
 
-RUN <<EOF 
-ip -h address > ip_a_output.txt 
-apk --no-cache add curl
-EOF
+RUN chmod 744 ./check_host.sh && ./check_host.sh
+RUN apk --no-cache add curl
 
 USER 1001
 
