@@ -5,7 +5,10 @@ WORKDIR /app
 COPY img /app/img
 COPY index_page.html favicon.ico /app/
 
-RUN ip -h address > ip_a_output.txt && apk --no-cache add curl
+RUN <<EOF 
+ip -h address > ip_a_output.txt 
+apk --no-cache add curl
+EOF
 
 USER 1001
 
