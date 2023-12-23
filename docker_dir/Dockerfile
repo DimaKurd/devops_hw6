@@ -2,7 +2,7 @@ FROM python:3.10-alpine
 
 WORKDIR /app
 
-COPY img .
+COPY img ./img
 COPY index_page.html favicon.ico ./
 COPY check_host.sh .
 
